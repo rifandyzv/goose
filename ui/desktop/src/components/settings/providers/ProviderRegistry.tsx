@@ -253,4 +253,18 @@ export const PROVIDER_REGISTRY: ProviderRegistry[] = [
       ],
     },
   },
+    {
+    name: 'Alibaba Cloud Model Studio',
+    details: {
+      id: 'alibaba',
+      name: 'Alibaba',
+      description: 'Access Qwen-3-Coder using Alibaba Cloud Model Studio',
+      parameters: [
+        {
+          name: 'MODEL_STUDIO_API_KEY',
+          is_secret: true,
+        },
+      ],
+    },
+  },
 ];
